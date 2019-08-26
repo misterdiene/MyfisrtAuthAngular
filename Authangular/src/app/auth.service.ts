@@ -8,7 +8,7 @@ export class AuthService {
   // tslint:disable-next-line: variable-name
   private _registerUrl = 'http://localhost:8000/api/register';
   // tslint:disable-next-line: variable-name
-  private _loginUrl = 'http://localhost:8000/api/login_check';
+  private _loginUrl = 'http://localhost:8001/api/login_check';
 
   // tslint:disable-next-line: variable-name
   constructor(private http: HttpClient, private _router: Router) { }

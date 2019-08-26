@@ -11,9 +11,9 @@ import { HttpClient } from '@angular/common/http';
 export class EventService {
 
   // tslint:disable-next-line: variable-name
-  private _eventsUrl = 'http://localhost:8000/api/partenaire';
+  private _eventsUrl = 'http://localhost:8001/api/partenaire';
   // tslint:disable-next-line: variable-name
-  private _specialEventsUrl = 'http://localhost:8000/api/user ';
+  private _specialEventsUrl = 'http://localhost:8001/api/user ';
   constructor(private http: HttpClient) { }
 
   /**
